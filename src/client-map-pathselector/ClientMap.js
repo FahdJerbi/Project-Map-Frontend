@@ -12,7 +12,7 @@ const ClientMap = () => {
   return (
     <div style={{ display: "flex" }}>
       {/* Navbar component */}
-      {/* <Navbar /> */}
+      {/* <Navbar /> */} 
 
       {/* user inputs component */}
       <ClientPathSelector />
@@ -23,7 +23,7 @@ const ClientMap = () => {
           attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         />
-        {/* leaflet routing machine component */}
+        {/* leaflet routing machine control component */}
         <RoutingMachine />
       </MapContainer>
     </div>

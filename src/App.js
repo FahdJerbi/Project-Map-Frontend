@@ -12,13 +12,13 @@ export default function App() {
       {/* client map with custom path control */}
       {/* <ClientMap /> */}
 
-      <Routes>
+      <Routes> 
         <Route path="/" element={<Layout />}>
-          <Route path="/register" element={<Register />} />
-          <Route path="/login" element={<Login />} />
+          <Route path="register" element={<Register />} />
+          <Route path="login" element={<Login />} />
 
           {/* create a private route for client map */}
-          <Route path="/map" element={<ClientMap />} />
+          <Route path="map" element={<ClientMap />} />
         </Route>
       </Routes>
     </div>
